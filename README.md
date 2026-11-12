@@ -1,4 +1,4 @@
-# Recipient-first delivery
+# Recipient Review
 
 A skill for preparing deliverables for their intended recipients. It checks disclosure boundaries, removes drafting residue, and uses one independent Reader to identify confusion or missing context.
 
@@ -15,19 +15,19 @@ The Reader's feedback does not authorize disclosure or override the purpose of t
 Clone into your user skill directory. For the default Codex skill directory:
 
 ```sh
-git clone https://github.com/billerss11/recipient-first-delivery.git "$HOME/.codex/skills/recipient-first-delivery"
+git clone https://github.com/billerss11/recipient-review.git "$HOME/.codex/skills/recipient-review"
 ```
 
 If you use a different skill directory, change the destination. To update an existing clone:
 
 ```sh
-git -C "$HOME/.codex/skills/recipient-first-delivery" pull --ff-only
+git -C "$HOME/.codex/skills/recipient-review" pull --ff-only
 ```
 
 ## Use
 
 ```text
-Use $recipient-first-delivery to finalize this supplier RFQ.
+Use $recipient-review to finalize this supplier RFQ.
 The recipient will receive the email, inquiry table, and attached specification.
 ```
 

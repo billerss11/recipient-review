@@ -1,9 +1,9 @@
 ---
-name: recipient-first-delivery
+name: recipient-review
 description: Finalize deliverables for a specific recipient by checking disclosure boundaries and using one independent reader to detect confusing content, drafting residue, and missing context. Use for delivery-ready emails, RFQs, reports, proposals, documents, spreadsheets, presentations, and websites. Not a general fact-check, technical certification, or review of ordinary chat and working notes.
 ---
 
-# Recipient-first delivery
+# Recipient Review
 
 Write for the recipient and the purpose of this delivery. Access to working information does not authorize its disclosure. Use the main agent for disclosure decisions and one fresh Reader for the recipient's reading experience.
 
