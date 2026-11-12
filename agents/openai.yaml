@@ -1,3 +1,6 @@
 interface:
   display_name: "Recipient Review"
   short_description: "Check disclosure and read as the actual recipient"
+
+policy:
+  allow_implicit_invocation: false

@@ -26,6 +26,8 @@ git -C "$HOME/.codex/skills/recipient-review" pull --ff-only
 
 ## Use
 
+Invoke this skill explicitly with `$recipient-review`. Automatic invocation is disabled.
+
 ```text
 Use $recipient-review to finalize this supplier RFQ.
 The recipient will receive the email, inquiry table, and attached specification.
@@ -37,4 +39,4 @@ The host must support creating a fresh subagent context for the independent read
 
 Suitable for emails, RFQs, reports, proposals, documents, spreadsheets, presentations, and websites ready for delivery. It checks recipient understanding, disclosure suitability, and drafting residue. It does not certify technical, legal, commercial, or factual correctness.
 
-The executable workflow instructions are in [SKILL.md](SKILL.md). The `agents/openai.yaml` file supplies the display name and short description.
+The executable workflow instructions are in [SKILL.md](SKILL.md). The `agents/openai.yaml` file supplies the display name, short description, and invocation policy.
