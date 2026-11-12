@@ -1,0 +1,3 @@
+interface:
+  display_name: "Recipient-First Delivery"
+  short_description: "Check disclosure and read as the actual recipient"
